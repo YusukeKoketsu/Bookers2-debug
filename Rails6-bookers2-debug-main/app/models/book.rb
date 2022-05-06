@@ -19,6 +19,6 @@ def self.search_for(content, method)
     else
       Book.where('title LIKE ?', '%'+content+'%')
     end
-  end
+end
 
 end
